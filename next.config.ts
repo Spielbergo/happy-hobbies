@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 import path from "path";
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: path.join(__dirname, "../"),
+  // Use Next.js defaults for output tracing on Vercel
   images: {
     remotePatterns: [
       {
