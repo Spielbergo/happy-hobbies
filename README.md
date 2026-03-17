@@ -93,16 +93,3 @@ npm run zip:out
 The easiest option is Vercel (connect this repo and deploy). For quick sharing you can upload `out.zip` contents to any static host, or use simple Apache/nginx hosting configured to serve the `out` folder as the site root.
 
 If you plan to use Vercel, no special config is required — just push to GitHub and import the repository in Vercel.
-
----
-
-## Contributing & Notes
-
-- Environment variables (if present) should never be committed; use `.env.local` which is ignored.
-- The repo aims for a minimal dependency surface so it can be exported as static HTML where needed.
-
----
-
-## Author
-
-Built and maintained by the site owner — added to a personal portfolio.
